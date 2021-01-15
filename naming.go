@@ -7,7 +7,6 @@ import (
 
 // Namer is a function type which is given a string and return a string
 type Namer func(string) string
-
 // NamingStrategy represents naming strategies
 type NamingStrategy struct {
 	DB     Namer
